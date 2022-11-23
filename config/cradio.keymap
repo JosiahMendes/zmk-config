@@ -53,9 +53,19 @@
             bindings = <&kp RGUI>;
         };
 
-        new_combo {
+        combo_z {
             bindings = <&kp Z>;
             key-positions = <10 21>;
+        };
+
+        combo_lctrl {
+            bindings = <&kp LEFT_CONTROL>;
+            key-positions = <21 22>;
+        };
+
+        combo_rctrl {
+            bindings = <&kp RCTRL>;
+            key-positions = <27 28>;
         };
     };
 
@@ -64,10 +74,10 @@
 
         default_layer {
             bindings = <
-  &kp Q   &kp W   &kp F   &kp P     &kp B      &kp J   &kp L      &kp U    &kp Y     &kp BACKSPACE
-  &kp A   &kp R   &kp S   &kp T     &kp G      &kp M   &kp N      &kp E    &kp I             &kp O
-  &none   &kp X   &kp C   &kp D     &kp V      &kp K   &kp H  &kp COMMA  &kp DOT  &mt LSHIFT ENTER
-                          &mo 1  &kp LCMD  &kp SPACE   &mo 2
+  &kp Q   &kp W   &kp F   &kp P                   &kp B      &kp J   &kp L      &kp U    &kp Y     &kp BACKSPACE
+  &kp A   &kp R   &kp S   &kp T                   &kp G      &kp M   &kp N      &kp E    &kp I             &kp O
+  &none   &kp X   &kp C   &kp D                   &kp V      &kp K   &kp H  &kp COMMA  &kp DOT  &mt LSHIFT ENTER
+                          &mo 1  &mt LEFT_COMMAND SPACE  &kp SPACE   &mo 2
             >;
         };
 
