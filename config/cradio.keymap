@@ -83,10 +83,10 @@
 
         left_layer {
             bindings = <
- &kp NUMBER_1  &kp NUMBER_2   &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9   &kp NUMBER_0
-    &kp GRAVE         &none  &kp RG(LS(Z))     &kp LG(Z)         &none     &kp MINUS     &kp EQUAL      &kp LBKT      &kp RBKT  &kp BACKSLASH
-        &none         &none          &none         &none         &none  &kp QUESTION      &kp SEMI      &kp APOS     &kp SLASH      &kp RSHFT
-                                                   &mo 1     &kp LCTRL      &kp RGUI         &mo 3
+   &kp NUMBER_1  &kp NUMBER_2    &kp NUMBER_3     &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9   &kp NUMBER_0
+      &kp GRAVE         &none   &kp RG(LS(Z))        &kp LG(Z)         &none     &kp MINUS     &kp EQUAL      &kp LBKT      &kp RBKT  &kp BACKSLASH
+ &kp LEFT_ARROW  &kp UP_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW         &none  &kp QUESTION      &kp SEMI      &kp APOS     &kp SLASH      &kp RSHFT
+                                                         &mo 1     &kp LCTRL      &kp RGUI         &mo 3
             >;
         };
 
