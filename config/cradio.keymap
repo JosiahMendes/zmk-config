@@ -101,10 +101,10 @@
 
         tri_layer {
             bindings = <
- &kp NUM_1   &kp NUM_2   &kp NUM_3  &kp NUM_4  &kp NUM_5  &trans     &trans        &trans      &trans  &trans
-    &kp F1      &kp F2      &kp F3     &kp F4     &kp F5  &trans  &kp PG_UP  &kp K_VOL_UP  &kp K_MUTE  &trans
-     &none  &bt BT_NXT  &bt BT_PRV     &kp F6     &kp F7  &trans  &kp PG_DN  &kp K_VOL_DN      &trans  &trans
-                                       &trans     &trans  &trans     &trans
+       &kp F1        &kp F2        &kp F3        &kp F4        &kp F5       &kp F6     &kp F7        &kp F8      &kp F9     &kp F10
+ &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4        &none  &kp PG_UP  &kp K_VOL_UP  &kp K_MUTE  &kp K_NEXT
+        &none    &bt BT_NXT    &bt BT_PRV    &bt BT_CLR   &bootloader  &bootloader  &kp PG_DN  &kp K_VOL_DN    &kp K_PP  &kp K_PREV
+                                                 &trans        &trans       &trans     &trans
             >;
         };
     };
